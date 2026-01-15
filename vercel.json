@@ -8,14 +8,5 @@
       "source": "/billing/(.*)",
       "destination": "https://billing.hector.host/$1"
     }
-  ],
-  "headers": [
-    {
-      "source": "/billing/(.*)",
-      "headers": [
-        { "key": "Host", "value": "billing.hector.host" },
-        { "key": "X-Forwarded-Proto", "value": "https" }
-      ]
-    }
   ]
 }
