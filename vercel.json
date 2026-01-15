@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/billing",
-      "destination": "https://billing.hector.host"
+      "destination": "https://guns.lol/anshal"
     },
     {
       "source": "/billing/(.*)",
-      "destination": "https://billing.hector.host/$1"
+      "destination": "https://guns.lol/anshal/$1"
     }
   ]
 }
