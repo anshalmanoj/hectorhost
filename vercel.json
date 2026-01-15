@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/billing",
+      "destination": "https://billing.hector.host"
+    },
+    {
+      "source": "/billing/:path*",
+      "destination": "https://billing.hector.host/:path*"
+    }
+  ]
+}
